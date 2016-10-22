@@ -35,11 +35,8 @@
         android:textColor="@android:color/white"
         android:text="@string/saludos"
         android:layout_below="@+id/linearLayout4"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="85dp"
-        android:layout_marginEnd="85dp"
-        android:layout_marginTop="60dp" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp" />
 
     <Button
         android:text="@string/acceso"
@@ -54,9 +51,7 @@
         android:shadowDx="1"
         android:shadowDy="2"
         android:shadowRadius="1.5"
-        android:layout_centerVertical="true"
-        android:layout_alignRight="@+id/txtSaludo"
-        android:layout_alignEnd="@+id/txtSaludo"
-        android:layout_marginRight="41dp"
-        android:layout_marginEnd="41dp" />
+        android:layout_marginTop="82dp"
+        android:layout_below="@+id/txtSaludo"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
